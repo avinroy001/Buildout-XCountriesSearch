@@ -3,9 +3,9 @@ const Card = ({data}) => {
   return (
     <div className={styles.wrapper}>
         <div className={styles.flag}>
-            <img src={data.flags?.png} alt={data.flag.common}/>
+            <img src={data.flags.png} alt={data.flag.common}/>
         </div>
-        <div className={styles.cname}>{data.name.official}</div>
+        <div className={styles.cname}>{data.name.common}</div>
     </div>
   )
 }
