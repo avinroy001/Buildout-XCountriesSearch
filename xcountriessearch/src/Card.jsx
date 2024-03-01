@@ -3,7 +3,7 @@ const Card = ({data}) => {
   return (
     <div className={styles.wrapper}>
         <div className={styles.flag}>
-            <img src={data.flags?.svg} alt='image'/>
+            <img src={data.flags?.png} alt='image'/>
         </div>
         <div className={styles.cname}>{data.name.official}</div>
     </div>

@@ -26,7 +26,7 @@ function App() {
   return (
     <div className='body'>
       <div>
-        <input type='text' onChange={filter}/>
+        <input type='text' onChange={filter} placeholder='Search for countries...'/>
       </div>
       <div className='countryCard'>
       {filteredData.map((el)=>{
