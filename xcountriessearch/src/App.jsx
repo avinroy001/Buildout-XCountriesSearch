@@ -22,7 +22,7 @@ function App() {
       return fl.name.common.toLowerCase().includes((e.target.value).toLowerCase());
     }))
   }
-  console.log(filteredData);
+  // console.log(filteredData);
   return (
     <div className='body'>
       <div>
