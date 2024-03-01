@@ -30,7 +30,7 @@ function App() {
       </div>
       <div className='countryCard'>
       {filteredData.map((el)=>{
-        return (<Card data={el} key={el.ccn3}/>)
+        return (<Card data={el} key={el.cca3}/>)
       })}
       </div>
     </div>
